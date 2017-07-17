@@ -1,17 +1,22 @@
 Plug in the plugin:
 
+```js
 $(document).ready(function () {
   $('tabs selector').lightTabs('content selector', number of the active menu item)
 })
-
+```
 
 
 Example:
 
+```js
 $(document).ready(function () {
   $('.tabs').lightTabs('.tabs-content', 0)
 })
+```
 
+
+```html
 <ul class="tabs">
   <li class="active">
     <a href="#tab-1">tab-1</a>
@@ -31,3 +36,4 @@ $(document).ready(function () {
     tab number 3
   </div>
 </div>
+```
